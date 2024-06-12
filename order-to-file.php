@@ -14,7 +14,7 @@ if (!defined('ABSPATH')) exit();
 add_action('plugins_loaded', 'order_to_file_load_textdomain');
 
 function order_to_file_load_textdomain() {
-    load_plugin_textdomain('order-to-file', false, dirname(plugin_basename(__FILE__)) . '/languages/zh-tw');
+    load_plugin_textdomain('order-to-file', false, dirname(plugin_basename(__FILE__)) . '/languages');
 }
 
 require_once plugin_dir_path(__FILE__) . 'includes/admin-settings.php';
