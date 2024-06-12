@@ -1,2 +1,0 @@
-msgid "Settings saved successfully."
-msgstr "設置已成功
